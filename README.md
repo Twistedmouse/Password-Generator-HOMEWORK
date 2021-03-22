@@ -11,4 +11,7 @@ list of what we did for read me
 .researched lable tag https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
 .put a button element in the html for a copy button 
 . leart about sliders with the range type inside input 
-.
+.reoganised the layout of the check boxxes and slider and copy btn
+.added javascript for slider , made function syncCharacterAmount
+.learnt concat adds more strings to the array
+. 

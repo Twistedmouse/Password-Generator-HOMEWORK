@@ -31,6 +31,10 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+h2{
+  text-align: center;
+}
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -81,15 +85,19 @@ header {
   display: flex;
   flex-direction: row;
   padding: 10px;
-  margin-left: 453px;
+  margin-left: 485px;
+}
+.numberInput{
+  width: 3rem;
 }
 .choices{
   display: inline-flex;
   align-items:center;
   justify-content:center;
+  margin-left: 0.5rem;
 }
 #checks{
-  margin-left: 231px;
+  margin-left: 215px;
 }
 
 .btn {
@@ -136,6 +144,7 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  word-break: break-all;
 }
 
 @media (max-width: 690px) {
