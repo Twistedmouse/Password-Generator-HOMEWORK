@@ -10,5 +10,5 @@ list of what we did for read me
 .add html stating with section with class choices to add a section for check boxxes. they will all be in seperate divs with the class choices 
 .researched lable tag https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
 .put a button element in the html for a copy button 
-.researched lava script const https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+. leart about sliders with the range type inside input 
 .

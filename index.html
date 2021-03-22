@@ -31,24 +31,27 @@
         </div>
 
         <section class="choices"></section>
-          <div class="choices">
-            <label>Length</label>
-            <input type="number" id="length" min="8" max="128" value="10">
+          <div class="choices" id="slider">
+            <label for="sliderLength">Length</label>
+            <input type="range" min="8" max="128" value="8"
+            id="rangeSlider">
+            <input type="number" min="8" max="128" value="8"
+            id="sliderLength">
           </div>
 
-          <div class="choices">
+          <div class="choices" id=checks>
             <label>Include Uppercase</label>
-            <input type="checkbox" id="uppercase" checked>
+            <input type="checkbox" id="uppercase" unchecked>
           </div>
 
           <div class="choices">
             <label>Include Numbers</label>
-            <input type="checkbox" id="numbers" checked>
+            <input type="checkbox" id="numbers" unchecked>
           </div>
 
           <div class="choices">
             <label>Include Symbols</label>
-            <input type="checkbox" id="symbols" checked>
+            <input type="checkbox" id="symbols" unchecked>
           </div>
         </section>
         
