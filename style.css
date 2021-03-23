@@ -82,12 +82,9 @@ h2{
 }
 
 #slider{
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  margin-left: 485px;
+  margin-left: 180px;
 }
-.numberInput{
+.numberInBox{
   width: 3rem;
 }
 .choices{
@@ -95,9 +92,6 @@ h2{
   align-items:center;
   justify-content:center;
   margin-left: 0.5rem;
-}
-#checks{
-  margin-left: 215px;
 }
 
 .btn {

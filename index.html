@@ -27,33 +27,21 @@
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
-          <button id="copy">copy</button>
+          <!-- <button id="copy">copy</button> -->
         </div>
 
         <form id=passGenform class=form></form>
           <section class="choices"></section>
+
           <div class="choices" id="slider">
-            <label for="sliderLength">Length</label>
+            <label for="sliderLength">Length of password</label>
             <input type="range" min="8" max="128" value="8"
             id="rangeSlider">
-            <input class="numberInput" type="number" min="8" max="128" value="8"
+            
+            <input class="numberInBox" type="number" min="8" max="128" value="8"
             id="sliderLength">
           </div>
 
-          <div class="choices" id=checks>
-            <label for="uppercase">Include Uppercase</label>
-            <input type="checkbox" id="uppercase" unchecked>
-          </div>
-
-          <div class="choices">
-            <label for="numbers">Include Numbers</label>
-            <input type="checkbox" id="numbers" unchecked>
-          </div>
-
-          <div class="choices">
-            <label for="symbols">Include Symbols</label>
-            <input type="checkbox" id="symbols" unchecked>
-          </div>
         </section>
         </form>
         
