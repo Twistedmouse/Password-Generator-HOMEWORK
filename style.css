@@ -151,9 +151,9 @@ button[disabled] {
   #password {
     font-size: 1rem;
   }
-}
+} */
 
-@media (max-width: 500px) {
+ @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
   }
