@@ -14,4 +14,5 @@ list of what we did for read me
 .reoganised the layout of the check boxxes and slider and copy btn
 .added javascript for slider , made function syncCharacterAmount
 .learnt concat adds more strings to the array
-. 
+
+.adding const to insure the values in the variable cant change since we are setting an array and creating a functon that randomises inside that array 
