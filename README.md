@@ -25,17 +25,17 @@ Next I read about input elements https://developer.mozilla.org/en-US/docs/Web/HT
 <br>
 The next step for me was to right some psuedo code to get an idea/plan of what i need to achieve. <br>
 
-![](Assets\screenshot\psuedoCode.jpg)
+![](Assets/screenshot/psuedoCode.jpg)
 
 I then wrote my form elements and input in my HTML (even thought i didnt need the form elemenet)
 
-![](Assets\screenshot\inputEl.jpg)
+![](Assets/screenshot/inputEl.jpg)
 
 I also went through the HTML to see what semantics I could change since it was all written with divs.<br>
 Next I read about the lable element https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label and use it for my slider. <br>
 I also added a copy button but removed it since it wasnt apart of the critiea. 
 
-![](Assets\screenshot\copyBTN.jpg)
+![](Assets/screenshot/copyBTN.jpg)
 
 I also changed the position of my slider to put it in the center. I decided to remove the numberbox next to the slider to make it feel even more random. <br>
 
@@ -46,61 +46,61 @@ And I learnt about const to make my array constant variables. <br>
 So I needed some varibles that were defined by arrays in the ascii table. I had to use concat for the Speical characters since they are all <br>
 over the ascii table.<br> 
 
-![](Assets\screenshot\array1.jpg)
+![](Assets/screenshot/array1.jpg)
 
 I made a function to move through the ascii table so it didnt just read the array as two values 
 
-![](Assets\screenshot\array2.jpg)
+![](Assets/screenshot/array2.jpg)
 
 HOT TIP!: I use consol.log throughout my javascript to make sure my arrays were working and pretty much to check if everything was working before making the button function.  
 
-![](Assets\screenshot\consoleArray.jpg)
+![](Assets/screenshot/consoleArray.jpg)
 <br>
 As you can see the arrays dont read as strings. So I need to lear how to make these values into string values. <br>
 
-![](Assets\screenshot\string.jpg)
+![](Assets/screenshot/string.jpg)
 
 We were givin some code to work with already so i didnt need to make the onclick function or writepassword function.<br>
 I noticed there was no gerneratePassword function but there was one in the writePassword function. 
 
-![](Assets\screenshot\writepass.jpg)
+![](Assets/screenshot/writepass.jpg)
 
 So i added a generatePassword function. <br>
 And that is were most of the javascript was written.
 
-![](Assets\screenshot\genPassfunc.jpg)
+![](Assets/screenshot/genPassfunc.jpg)
 
 First I made if statements for my prompts.
 
-![](Assets\screenshot\promptcodes.jpg)
+![](Assets/screenshot/promptcodes.jpg)
 
 <br>
 this is how they appeard on the page: 
 
-![](Assets\screenshot\prompt1.jpg)
+![](Assets/screenshot/prompt1.jpg)
 
-![](Assets\screenshot\prompt2.jpg)
+![](Assets/screenshot/prompt2.jpg)
 
-![](Assets\screenshot\prompt3.jpg)
+![](Assets/screenshot/prompt3.jpg)
 
-![](Assets\screenshot\prompt4.jpg)
+![](Assets/screenshot/prompt4.jpg)
 
-![](Assets\screenshot\prompt5.jpg)
+![](Assets/screenshot/prompt5.jpg)
 
-![](Assets\screenshot\prompt6.jpg)
+![](Assets/screenshot/prompt6.jpg)
 
 And finally i need a way for my characters to randomise then return the result.
 
-![](Assets\screenshot\random.jpg)
+![](Assets/screenshot/random.jpg)
 
 with my randomiser i think if i had more time i would have added and else statement for if the password dosnt contain one of each character to then re-generate. but with my testing the probaility of nt getting one of each character even on the smaller slider numbers was very low.
 
 I should also note my slider has a length variable to choose the length of the passphare.
 
-![](Assets\screenshot\length.jpg)
+![](Assets/screenshot/length.jpg)
 
 I found it very interesting as well how the math.random for foor loop worked on the console: 
 
-![](Assets\screenshot\randomarray.jpg)
+![](Assets/screenshot/randomarray.jpg)
 
 <br> And that is my Random Pasword Generator. thank you.
