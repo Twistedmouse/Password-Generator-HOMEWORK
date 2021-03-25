@@ -1,18 +1,15 @@
-Password Generator-HOMEWORK
-list of what we did for read me
-.research phase read https://www.studytonight.com/post/building-a-password-generator-with-javascript and watch afew videos 
-.noticed one video used check boxxes and afew examples had a copy button and check boxxes too and thought that was a really good idea and i know how to do  this with css from the last project 
-.also read about the form element on the mdn https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form (turns out i wont need to use form elements)
-.read about input element https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
-.wrote pseudo code
-.then set up form elements 
-.changed the semantics in the html
-.add html stating with section with class choices to add a section for check boxxes. they will all be in seperate divs with the class choices 
-.researched lable tag https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
-.put a button element in the html for a copy button 
-. leart about sliders with the range type inside input 
-.reoganised the layout of the check boxxes and slider and copy btn
-.added javascript for slider , made function syncCharacterAmount
-.learnt concat adds more strings to the array
+# Random Password Generator
+UWA Web Dev Bootcamp - feb 2021
 
-.adding const to insure the values in the variable cant change since we are setting an array and creating a functon that randomises inside that array 
+### https://github.com/Twistedmouse/Random-Password-Generator
+### https://twistedmouse.github.io/Random-Password-Generator/
+
+---
+## The task at hand:
+My task was basically to edit the code and create a password generator. <br> 
+I had to follow the following critira:
+
+![](Assets/screenshot/userStory.jpg)
+
+---
+## Screenshots and Decription:
