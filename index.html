@@ -27,19 +27,23 @@
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
-          <button id="copy">copy</button>
+          <!-- copy button -->
+          <button onclick="copyFunction" id="copy">copy</button>
         </div>
 
         <form id=passGenform class=form></form>
           <section class="choices"></section>
-
+          <!-- slider -->
           <div class="choices" id="slider">
             <label for="rangeSlider">Length of password</label>
             <input type="range" min="8" max="128" value="8" step="1"
             id="rangeSlider">
+            <!-- number in box
+            <p>Value: <span id = "sliderLength"></span></p> -->
             
-            <input class="numberInBox" type="number" min="8" max="128" value="8" step="1"
-            id="sliderLength">
+            <!-- other attempt at numerbox -->
+            <!-- <input class="numberInBox" type="number" min="8" max="128" value="8" step="1"
+            id="sliderLength"> -->
           </div>
 
         </section>

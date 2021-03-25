@@ -14,15 +14,15 @@
 //if passcode dose not contain upper lower number and symobol redo 
 //try get copy button to work. LAST
 
-//copy button
-var copyText = document.getElementById("password")
 //my slider
-var sliderRange = document.getElementById('rangeSlider')
-var sliderNumber = document.getElementsById('sliderLength')
-sliderRange.innerHTML = sliderRange.value;
-sliderRange.oninput = function(){
-  sliderNumber.innerHTML = this.value;
-}
+// var sliderRange = document.getElementById('rangeSlider')
+// var sliderNumber = document.getElementsById('sliderLength')
+// sliderNumber.innerHTML = sliderRange.value;
+// sliderRange.oninput = function(){
+//   sliderNumber.innerHTML = this.value;
+// }
+
+
 // const for ascii arrays (since value dosnt need to change)
 const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
 const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
@@ -34,7 +34,7 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
           ).concat(
               arrayFromLowToHigh(123, 126))
 
-console.log(UPPERCASE_CHAR_CODES, LOWERCASE_CHAR_CODES, NUMBER_CHAR_CODES, SYMBOL_CHAR_CODES) 4
+console.log(UPPERCASE_CHAR_CODES, LOWERCASE_CHAR_CODES, NUMBER_CHAR_CODES, SYMBOL_CHAR_CODES) 
 // // Assignment Code
 let generateBtn = document.querySelector("#generate");
 // // Write password to the #password input
@@ -90,3 +90,13 @@ function arrayFromLowToHigh(low, high) {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+//copy button
+// function copyFunction() {
+//   var copyText = document.getElementById("password");
+//   copyText.select();
+//   copyText.setSelectionRange(0, 99999)
+//   document.execCommand("copy");
+//   alert("COPIED PASSPHRASE" + copyText.value)
+// }
