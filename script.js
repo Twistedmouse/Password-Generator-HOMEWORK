@@ -14,11 +14,15 @@
 //if passcode dose not contain upper lower number and symobol redo 
 //try get copy button to work. LAST
 
-
-//let for my slider
-let sliderRange = document.getElementById('rangeSlider')
-let sliderNumber = document.getElementById('sliderLength')
-
+//copy button
+var copyText = document.getElementById("password")
+//my slider
+var sliderRange = document.getElementById('rangeSlider')
+var sliderNumber = document.getElementsById('sliderLength')
+sliderRange.innerHTML = sliderRange.value;
+sliderRange.oninput = function(){
+  sliderNumber.innerHTML = this.value;
+}
 // const for ascii arrays (since value dosnt need to change)
 const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
 const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
